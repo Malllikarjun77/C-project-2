@@ -1,6 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -I.
-
+CFLAGS = -Wall -I. -Itests/unity
 # Main program build
 build: bin/main
 
